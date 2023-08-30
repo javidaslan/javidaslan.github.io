@@ -1,0 +1,108 @@
+<main class="resume-contents">
+  <section class="left-section">
+    <div class="left-section-contents">
+      <div class="profile">
+        <p class="name">{{data.name}}</p>
+        <p class="profession">{{data.title}}</p>
+      </div>
+      <div class="contact-info">
+        <p class="left-title">Contact Info</p>
+        <ul>
+          <li>
+            <fa-icon [icon]="phone"></fa-icon>
+            {{data.phone}}
+          </li>
+          <li>
+            <fa-icon [icon]="envelope"></fa-icon>
+            {{data.email}}
+          </li>
+          <li>
+            <fa-icon prefix="fab" [icon]="linkedinIn"></fa-icon>
+            {{data.linkedin}}
+          </li>
+          <li>
+            <fa-icon prefix="fab" [icon]="github"></fa-icon>
+            {{data.github}}
+          </li>
+          <li>
+            <fa-icon [icon]="mapMarker"></fa-icon>
+            {{data.location}}
+          </li>
+        </ul>
+      </div>
+      <div class="skills">
+        <p class="left-title">Technical Skills</p>
+        <ul>
+          <li *ngFor="let skill of data.technicalSkills"><p class="skills">● {{skill}}</p></li>
+        </ul>
+      </div>
+
+      <div class="skills">
+        <p class="left-title">Behavioral Skills</p>
+        <ul>
+          <li *ngFor="let skill of data.behavioralSkills"><p class="skills">● {{skill}}</p></li>
+        </ul>
+      </div>
+
+      <div class="skills">
+        <p class="left-title">Language Skills</p>
+        <ul>
+          <li *ngFor="let skill of data.languageSkills"><p class="skills">● {{skill.name}} ({{skill.level}})</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="right-section">
+    <div class="right-section-contents">
+      <section class="about gap">
+        <div class="right-title">About Me</div>
+        <p class="about-me-contents">{{data.aboutMe}}</p>
+      </section>
+
+      <section class="experience gap">
+        <div class="right-title">Experience</div>
+        <div class="experience-contents" *ngFor="let position of data.workExperience">
+          <div class="exp-left">
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr)">
+              <div style="width: 150%">
+                <p class="exp-position">{{position.title}}</p>
+              </div>
+              <div style="text-align: left; margin-left: auto">
+                <p class="exp-position" style="color: black">{{position.start}}-{{position.end}}
+              </div>
+            </div>
+            <p class="exp-position">{{position.company}} <i style="color: black;">{{position.location}}</i></p>
+          </div>
+          <div class="exp-right">
+            <ul style="">
+              <li class="exp-desc" *ngFor="let task of position.tasks"> {{task}} </li>
+            </ul>
+            <p style="margin-top: 5%" *ngIf="position.techStack"><b>Tech stack:</b> {{position.techStack}}</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="education gap">
+        <div class="right-title">Education</div>
+        <div class="education-contents" *ngFor="let education of data.education">
+          <div class="education-left">
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr)">
+              <div style="width: 150%">
+                <p class="education-school-name">{{education.university}}</p>
+              </div>
+              <div style="margin-left: auto; text-align: left"><p class="education-time-period">{{education.start}}
+                -{{education.end}} {{education.location}}</p></div>
+            </div>
+
+          </div>
+          <div class="education-right">
+            <p class="education-subject">{{education.degree}}</p>
+            <p class="education-desc" *ngIf="education.awards"><b>Awards: </b> {{education.awards}}</p>
+            <p class="education-desc" *ngIf="education.honors"><b>Honors: </b> {{education.honors}}</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</main>
