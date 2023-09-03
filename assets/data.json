@@ -1,0 +1,151 @@
+{
+  "name": "Javid Aslanov",
+  "email": "j.aslanov94@gmail.com",
+  "phone": "+49176653668471",
+  "title": "Lead Infrasture Engineer",
+  "linkedin": "linkedin.com/in/aslanovjavid",
+  "github": "github.com/javidaslan",
+  "location": "Berlin, Germany",
+  "technicalSkills": [
+    "Amazon Web Services, Kubernetes, Docker Containers, Kafka",
+    "ArgoCD, Terraform/Terragrunt, Ansible, Jenkins",
+    "Python (Flask/Django), Golang",
+    "OpenShift, Azure AD",
+    "Git, GitHub Actions, CI/CD",
+    "MySQL, MongoDB PostgreSQL,"
+  ],
+  "behavioralSkills": [
+    "Collaborative, promoting inclusion",
+    "Setting standards and norms",
+    "Courage of conviction, leadership",
+    "Communicating effectively",
+    "Creating clarity and business value",
+    "Competing to win",
+    "Promoting innovation"
+  ],
+  "aboutMe": "AWS Certified Solutions Architect working as a Infrastructure Engineer with the main\nfocus on building, supporting, and running new infrastructure solutions for multi-VPC\nAWS Cloud environment to keep our platform reliable and enable developers to release\nnew services with minimal lead time to production.",
+  "workExperience": [
+    {
+      "title": "Lead Infrastructure Engineer",
+      "company": "SevenSenders GmbH",
+      "location": "Berlin, Germany",
+      "start": "April 2023",
+      "end": "Present",
+      "tasks": [
+        "Led data migration projects from several MySQL instances to\nAWS RDS Aurora Cluster with minimal downtime as well as from the old S3 bucket to a new one with live\ncross account replication enabled.",
+        "Designed and Implemented multi-connection site-to-site VPN between the office\nnetwork and AWS Cloud + Transit Gateways.",
+        "Worked on a comprehensive network redesign project within the AWS infrastructure (e.g. NAT Gateways, VPC Endpoint Services and etc.), resulting in a substantial reduction in operational costs and the optimization of data transfer processes. Key achievements include successfully implementing changes to multiple components, leading to a streamlined network architecture that efficiently minimized extraneous data transfers.",
+        "Worked on creation of financial roadmap for infrastructure cost accountability and optimisation.",
+        "Implemented Terraform Pull Request automation tool called Atlantis to allow developers to manage their cloud infrastructure as code that decreased their dependency on the Infrastructure team 25%/day.,",
+        "Researched and prepared proof of concepts on several topics such as AWS WAF &\nAPI Gateway, Terraform Drift Detection, Kubernetes Policy Management via Kyverno,\netc.",
+        "Introduced project prioritization and fundamental planning methods for Infrastructure team resulting in an increase in delivery capacity of team.",
+        "Participated in interview processes of new infrastructure engineers."
+      ],
+      "techStack": "Amazon Web Services, Kubernetes, Docker Containers, ArgoCD, Terraform/Terragrunt/Atlantis, Jenkins, Azure AD, Python, Golang, Kafka (MSK), Prometheus, Grafana, Git, Backstage.io"
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Prezi",
+      "location": "Budapest, Hungary",
+      "start": "November 2020",
+      "end": "March 2022",
+      "tasks": [
+        "Worked on migrating Django services running on Python 2 to Python 3.",
+        "Participated in development of new build system in Gradle using Kotlin programming language that replaces old one.",
+        "Migrated a critical repository manager service from old unmanageable infrastructure to AWS Elastic Beanstalk. Main task was to research and implement migration strategy that enables migration of ~2TBs of data with minimal outage of service availability.",
+        "Implemented a monitoring solution for new repository manager service that helps to see insights of usage of service using Prometheus and Grafana.",
+        "Worked on critical AWS RDS database engine upgrades..",
+        "Researched and implemented rightsizing of AWS RDS databases to utilize proper instance types to achieve cost effectiveness while keeping application requirements in mind."
+      ],
+      "techStack": "Amazon Web Services, Kubernetes, Docker Containers, Buildkit, Git, Python (Flask, Django), Kotlin, Prometheus, Grafana, FluentD, Ansible, Terraform."
+    },
+    {
+      "title": "DevOps Engineer for Network Automation",
+      "company": "ExxonMobil",
+      "location": "Budapest, Hungary",
+      "end": "March 2017",
+      "start": "November 2020",
+      "tasks": [
+        "Built and deployed applications according to microservice architecture for horizontally scaled systems.",
+        "Built and maintained CI/CD pipelines for code deployments using Gitlab CI.",
+        "Delivered automation solutions through the software development life cycle that reduced manual effort and helped to avoid possible human misconfigurations for large scale network systems.",
+        "Designed and developed network device onboarding process that reduces the effort and time for new device commissioning by minimum 40%.",
+        "Developed APIs using Python to integrate with internal services over modern authentication and authorization techniques such as Microsoft Azure Active Directory.,"
+      ],
+      "techStack": " Python (Flask, Django), Ansible (Core, AWX), Linux (RHEL), SQL (MySQL,\nSQL Server), NoSQL (MongoDB), Docker Containers, Openshift Container Platform,\nAngularJS, NodeJS, JavaScript, C#, Cisco, Juniper, Git."
+    },
+    {
+      "title": "Web Application Developer",
+      "company": "Barama Innovation & Entrepreneurship Center",
+      "location": "Baku, Azerbaijan",
+      "start": "October 2015",
+      "end": "May 2016",
+      "tasks": [
+        "Designed and developed both the frontend and backend of web based applications.",
+        "Provided long term support for released websites by adding new features or fixing discovered problems with minimal user impact.",
+        "Successfully led the development of an educational web project from formulating project scope to the deployment of the final product."
+      ],
+      "techStack": "PHP (Frameworks: Laravel, YII2), MySQL, AWS (EC2, RDS, S3),\nJavaScript, Python (Django)."
+    },
+    {
+      "title": "Programming Instructor",
+      "company": "EduMedia",
+      "location": "Baku, Azerbaijan",
+      "start": "February 2018",
+      "end": "July 2018",
+      "tasks": [
+        "Designed comprehensive syllabi and engaging quizzes for lectures, fostering a dynamic and interactive learning experience.",
+        "Imparted the fundamentals of programming to school students of varying levels, nurturing their skills and passion for technology.",
+        "Mentored and trained students to participate in national and international coding competitions, helping them to achieve their full potential."
+      ]
+    }
+  ],
+  "freelanceExperience": [
+    {
+      "title": "Python Developer (Intern)",
+      "company": "CCITech",
+      "location": "Baku, Azerbaijan",
+      "start": "June 2013",
+      "end": "July 2014",
+      "tasks": [
+        "Prepared architectural models of open source ERP Systems.",
+        "Analyzed and compared functionalities of ERP systems with company’s requirements and developed modules for ERP systems accordingly.",
+        "Prepared technical tasks for the automation of management systems."
+      ],
+      "techStack": "Python, PostgreSQL, Git, XML, Bash, PHP"
+    }
+  ],
+  "languageSkills": [
+    {
+      "name": "English",
+      "level": "Fluent"
+    },
+    {
+      "name": "Azerbaijani",
+      "level": "Native"
+    },
+    {
+      "name": "Russian",
+      "level": "Intermediate"
+    }
+  ],
+  "education": [
+    {
+      "university": "Eotvos Loránd University",
+      "minor": "Computer Science",
+      "degree": "MSc. Computer Science",
+      "start": "2016",
+      "end": "2019",
+      "awards": "Stipendium Hungaricum Scholarship",
+      "location": "Budapest, Hungary"
+    },
+    {
+      "university": "Baku State University",
+      "degree": "BSc. Computer Science",
+      "start": "2011",
+      "end": "2015",
+      "awards": "Full Government Scholarship",
+      "location": "Baku, Azerbaijan"
+    }
+  ]
+}
