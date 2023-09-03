@@ -1,7 +1,7 @@
 name: Build Angular
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build-and-deploy:
